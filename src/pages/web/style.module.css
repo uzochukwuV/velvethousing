@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+.bg {
+    background-color: rgb(248,249,250);
+   
+}
+
+.bgd {
+    background-color: rgb(232, 233, 234);
+}
+
+.container {
+    padding: 20px 100px;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(248,249,250, 0.4);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mainBar {
+    display: flex;
+    gap: 10px;
+}
+
+.appBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px !important;
+    margin-bottom: 40px;
+    
+
+}
+
+.appBar div {
+    
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 12px;
+    background-color: rgb(232, 233, 234);
+}
+
+.appBar div input {
+    width: 250px;
+    font-size: 12px;
+    padding: 20px 25px;
+    border-radius: 12px;
+    background-color: rgb(232, 233, 234);
+    border: 1px solid rgb(232, 233, 234);
+}
+
+.appBar input:focus, .appBar input:focus-visible, .appBar input:hover {
+    border: 1px solid rgb(195, 194, 194);
+    outline: 0;
+} 
+
+.appBar div:first-child {
+    padding: 0;
+}
+.cards {
+ width: 100%;   
+ overflow-wrap: break-word;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+
+ 
+}
+.load {
+    padding: 15px 25px;
+    margin: 20px auto 10px auto;
+    background-color: #f3f3f3;
+    width: 100px;
+}
+
+.cardBox {
+    width: 50%;
+}
+.map {
+    width: 48%;
+    border-radius: 52px;
+}
+
+.mapouter{position:relative;text-align:right;height:100%;width:100%;border-radius: 50px;}
+
+.gmapcanvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+
+
+.card { 
+    
+    height: 300px;
+    width: 250px;
+    background-position: center;
+    margin: 0 0 10px 0;
+    box-shadow: 2px 3px 2px #f3f3f3, 3px 1px 2px #f3f3f3;;
+    
+    
+}
+
+.cardImg{
+    height: 45%;
+    
+    border-radius: 12px;
+    padding: 5px 10px;
+    display: flex;
+
+}
+
+
+.materialSymbolsOutlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.cardText{
+    height: 55%;
+    padding: 15px 5px;
+}
+
+.cardText h3, .cardText p, .cardText div {
+    margin: 0;
+    padding: 0;
+    color: #868686;
+}
+
+.cardText h3{
+    padding: 5px 0;
+    font-size: 18px;
+    color: #161616;
+}
+
+.cardText p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(96, 96, 96); ;
+}
+
+.subIcons span {
+    display: inlne-block;
+    padding: 5px 15px;
+    background-color: rgb(232, 233, 234);
+    margin-right: 15px;
+    width: 30px;
+}
+
+
+
+.subIcons {
+    display: flex;
+    justify-content: space-between !important;
+}

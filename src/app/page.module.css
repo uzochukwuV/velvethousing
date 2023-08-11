@@ -1,10 +1,21 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
 .main {
   display: flex;
   flex-direction: column;
-  background-color: rgb(48, 47, 47);
-  color: white;
-  
   padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  
+}
+
+
+
+
+.navSearch:hover, .navSearch:focus, .navSearch:focus-visible {
+  background-color: white !important;
   
 }
 
@@ -12,8 +23,8 @@
   padding: .5em 4em;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(4px);
-  background-color: black;
-  color: white;
+  font-family: 'DM Sans', sans-serif;
+  color: #161616;
   display: fixed;
   top: 0;
   left: 0;
@@ -34,17 +45,37 @@
     gap: 2em;
 }
 
-.navBtn {
-  background-color: rgb(88, 64, 243);
+.heroBtn {
+  background-color: #468fd1;
   color: white;
-  height: 50px;
-  width: 155px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: medium;
-  border: 0;
+  
+  padding: 10px 40px;
 }
 
+.short {
+  width: 420px;
+}
+
+.short h1 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.navBtn {
+
+
+  background-color: #468fd1;
+  color: white;
+  padding: 14px 40px;
+  width: 155px;
+
+  font-size: 14px;
+  border: 0;
+
+}
+.navBtn:hover {
+  color: white;
+  background-color: #161616;
+}
 .main {
   position: relative;
   
@@ -52,7 +83,7 @@
 
 .herosection {
   height: 500px;
-  color: black;
+  
 }
 
 .heroImg {
@@ -84,16 +115,10 @@
 
 
 .locals {
-  background-color: rgb(245, 246, 247);
+
   border-radius: 20px;
  height: 500px;
  
 }
-.footer {
-  background-color: black;
-  color: white;
-}
 
-.colorlight {
-  color: white;
-}
+
